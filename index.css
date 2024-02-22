@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700&display=swap');
+
 .ppl-drw {
   max-width: 1030px;
   width: 100%;
@@ -64,7 +65,7 @@
 }
 .ppl-drw_button {
   border-radius: 30px;
-  background: var(--Brend-Yellow, #ffbf37);
+  background: #ffbf37;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
   padding: 20px 40px;
   color: #010101;
@@ -127,7 +128,7 @@
 }
 @media (max-width: 680px) {
   .ppl-drw-wrapper {
-    padding: 35px 27px 25px 17px;
+    padding: 35px 0px 25px 0px;
   }
   .ppl-drw_title {
     font-size: 40px;
@@ -148,5 +149,9 @@
   .ppl-drw-wrapper {
     align-items: center;
     justify-content: center;
+  }
+  .ppl-drw_button {
+    border-radius: 30px;
+    padding: 20px;
   }
 }
